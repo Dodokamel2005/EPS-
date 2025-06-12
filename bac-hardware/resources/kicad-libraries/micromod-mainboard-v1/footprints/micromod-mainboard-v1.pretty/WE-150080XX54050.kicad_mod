@@ -1,0 +1,303 @@
+(footprint "WE-150080XX54050"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<B>WL-SBCD SMD Bi-color Chip LED Diffused<BR></B><BR>Size : 0805, SMT, 4pins<BR>LXWXH=2x1.3x0.5mm")
+	(property "Reference" "REF**"
+		(at 0 -2.208 0)
+		(layer "F.SilkS")
+		(uuid "8a0b7749-1c67-4e32-b548-12bf660a9fc8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "WL-SBCD_0805"
+		(at 0 2.092 0)
+		(layer "F.Fab")
+		(uuid "ae12baa4-8d22-4718-956e-29c08317ed6d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "687fd0e6-5e93-4499-9898-808b5b26ddd3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150080SG54050.pdf"
+		(at 0.1 3.65 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71e6a9e2-b552-407d-bd33-688a694620ed")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c46f899-202b-4e47-a736-67c05e44c590")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.2 -0.75)
+		(end 0.2 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01a3e572-4f88-4578-9dd9-a114b44061e5")
+	)
+	(fp_line
+		(start -0.2 0)
+		(end 0.1 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0467ae01-370c-47dd-b8f5-546f6fe371d6")
+	)
+	(fp_line
+		(start -0.2 0.75)
+		(end 0.2 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de4c7842-9897-42f8-a2ac-1e781f4fdc7e")
+	)
+	(fp_line
+		(start 0.1 -0.2)
+		(end 0.1 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbe8b263-1459-4c9c-a55a-18733432ba82")
+	)
+	(fp_line
+		(start 0.1 0.2)
+		(end -0.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6063d2e-5930-4b92-b252-fe939adfb14b")
+	)
+	(fp_circle
+		(center -1.76 -1.43)
+		(end -1.66 -1.43)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a69df412-7c8a-4040-afb5-8c2a107a3ffc")
+	)
+	(fp_poly
+		(pts
+			(xy -1.7 -1.4) (xy 1.7 -1.4) (xy 1.7 1.4) (xy -1.7 1.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "30953359-4360-4e5b-a61a-6a5baa615b0a")
+	)
+	(fp_line
+		(start -1 0.45)
+		(end -1 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "146279ae-381d-416f-a6bf-502fd44c1085")
+	)
+	(fp_line
+		(start -0.8 -0.65)
+		(end 0.8 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5c38f9e-4dab-4849-90ca-9b03ef6e503b")
+	)
+	(fp_line
+		(start -0.2 0)
+		(end 0.1 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d5425a1-776f-4b41-94e9-8936ef9ccbd3")
+	)
+	(fp_line
+		(start 0.1 -0.2)
+		(end 0.1 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f27dabca-1d5d-4de2-8ddc-d12819a62cf7")
+	)
+	(fp_line
+		(start 0.1 0.2)
+		(end -0.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36a0e570-eeff-416c-b658-68f0357a12e1")
+	)
+	(fp_line
+		(start 0.8 0.65)
+		(end -0.8 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4aad382b-870c-47d1-b1cb-05f903a33de6")
+	)
+	(fp_line
+		(start 1 -0.45)
+		(end 1 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a6d3975-d2f5-4641-9881-cc666993a127")
+	)
+	(fp_arc
+		(start -1 0.45)
+		(mid -0.858579 0.508579)
+		(end -0.8 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9219189-86ce-447f-a340-dd52abcd6ca6")
+	)
+	(fp_arc
+		(start -0.8 -0.65)
+		(mid -0.858579 -0.508579)
+		(end -1 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e41827ab-e386-4435-a97d-5af93fd5624d")
+	)
+	(fp_arc
+		(start 0.8 0.65)
+		(mid 0.858579 0.508579)
+		(end 1 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7af348f-7cf7-4044-b87f-78e2a54ec886")
+	)
+	(fp_arc
+		(start 1 -0.45)
+		(mid 0.858579 -0.508579)
+		(end 0.8 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b83606a-8d60-410b-b7fb-a5b1feed18fb")
+	)
+	(fp_circle
+		(center -1.76 -1.43)
+		(end -1.66 -1.43)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1910dd90-10a5-4dc5-bbce-ef538e2f51da")
+	)
+	(pad "1" smd rect
+		(at -1 -0.7)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d120913d-691d-4bd0-baf9-968b5bbf3c54")
+	)
+	(pad "2" smd rect
+		(at -1 0.7)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "9436a31e-8f9a-4e90-b273-50fc6d91d26e")
+	)
+	(pad "3" smd rect
+		(at 1 0.7)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "4cc84da7-08d6-4cda-8f4b-5e584fe8d527")
+	)
+	(pad "4" smd rect
+		(at 1 -0.7)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "a3fa92d4-a3c2-4ef8-ad27-724f1b6e3ebe")
+	)
+	(model "${BAC_LIB_DIR}/micromod-mainboard-v1/3d/WE-150080SG54050.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

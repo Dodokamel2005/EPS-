@@ -1,0 +1,30 @@
+{
+    "layout": {
+        "rows": "4",
+        "cols": "4"
+    },
+    "tabs": {
+        "type": "full",
+        "patchcorners": "False"
+    },
+    "cuts": {
+        "type": "vcuts"
+    },
+    "framing": {
+        "type": "railstb",
+        "chamferwidth": "1mm",
+        "chamferheight": "1mm"
+    },
+    "copperfill": {
+        "type": "hatched",
+        "width": "0.5mm",
+        "spacing": "1mm"
+    },
+    "page": {
+        "posy": "30mm"
+    },
+    "post": {
+        "millradius": "0.25mm",
+        "dimensions": "True"
+    }
+}

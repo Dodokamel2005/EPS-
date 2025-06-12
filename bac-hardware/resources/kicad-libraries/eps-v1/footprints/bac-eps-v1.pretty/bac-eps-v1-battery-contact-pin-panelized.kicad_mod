@@ -1,0 +1,137 @@
+(footprint "bac-eps-v1-battery-contact-pin-panelized"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 4.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "af5e88c2-d3f4-4af2-9d30-e6707fcbf522")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "bac-eps-v1-battery-contact-pin-panelized"
+		(at 0 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1193c415-09e8-41d6-a09e-558fec7d8029")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1eafa91-b368-491d-998b-1b608c0aa645")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f435644-c167-42ca-ab2c-e5754a90fed8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26013643-411a-44d3-9d91-5b6e532ddde7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -10 0)
+		(end 10 0)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "b17dae46-6ab4-4979-8a45-9f60ecbbf1dd")
+	)
+	(fp_line
+		(start 8.4 0.6)
+		(end 8.4 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "117c7e3c-9671-42c9-b3ff-6e48060fee12")
+	)
+	(fp_rect
+		(start -2.825 -3.9)
+		(end 2.825 3.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c5101a7e-2c39-4511-9dc1-efdca3ca3f6f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "84399cdc-da38-4915-bf11-952f6e4fc069")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -1.27 0)
+		(size 2.75 7.5)
+		(drill oval 0.5 5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "d6d517b8-9725-4cad-943f-832bb34de2af")
+	)
+	(pad "1" thru_hole roundrect
+		(at 1.27 0)
+		(size 2.75 7.5)
+		(drill oval 0.5 5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "962ce1a1-c163-4cc9-872d-612257e51f79")
+	)
+	(group ""
+		(uuid "13a3121a-cadc-45ee-a1a9-08b9c8b2f733")
+		(members "962ce1a1-c163-4cc9-872d-612257e51f79" "d6d517b8-9725-4cad-943f-832bb34de2af")
+	)
+)

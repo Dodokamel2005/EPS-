@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "bac EPS v1")(type "KiCad")(uri "${BAC_LIB_DIR}/eps-v1/symbols/bac-eps-v1.kicad_sym")(options "")(descr ""))
+)

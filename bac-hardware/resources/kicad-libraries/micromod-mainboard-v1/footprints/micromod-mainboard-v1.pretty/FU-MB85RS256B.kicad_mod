@@ -1,0 +1,287 @@
+(footprint "FU-MB85RS256B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "FRAM (Ferroelectric RAM) Memory IC 256Kbit SPI 33 MHz 8-SOP")
+	(tags "SOP SO")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "bc7297f0-57cb-471d-ba60-621430be29ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FU-MB85RS256B"
+		(at -0.1 3.6 0)
+		(layer "F.Fab")
+		(uuid "f557b3b9-e3be-46b9-adbd-123854ac9801")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a48a71b-690a-4eac-84a9-f2f557dcda39")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ramxeed.com/assets/images/products/datasheet/FeRAM/s4/MB85RS256B-DS5v1-E.pdf"
+		(at 0.2 7.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b44092dc-6311-4326-a620-d49657b11413")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee0ed849-5f5e-4270-8b38-ddf559c85409")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -2.56)
+		(end -1.95 -2.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1dc76a8-56e8-4832-8776-41c1b7abd58a")
+	)
+	(fp_line
+		(start 0 -2.56)
+		(end 1.95 -2.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "804ab668-dcdd-4ecb-9246-b71dc4fffd81")
+	)
+	(fp_line
+		(start 0 2.56)
+		(end -1.95 2.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ec50d30-35e7-43b1-a72b-5e5317ba3ecf")
+	)
+	(fp_line
+		(start 0 2.56)
+		(end 1.95 2.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09171c6b-fce7-42b5-8bb5-80d54afa4cdb")
+	)
+	(fp_poly
+		(pts
+			(xy -2.7 -2.465) (xy -2.94 -2.795) (xy -2.46 -2.795) (xy -2.7 -2.465)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e03860c4-0f53-437d-968c-f9d7349154b4")
+	)
+	(fp_line
+		(start -3.7 -2.7)
+		(end -3.7 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57bb8df2-2eb9-48d4-a799-d6e2637dd066")
+	)
+	(fp_line
+		(start -3.7 2.7)
+		(end 3.7 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3da8dea-568b-4d3c-8e40-44d3c262b832")
+	)
+	(fp_line
+		(start 3.7 -2.7)
+		(end -3.7 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a61852c-7c00-4680-b955-6c019f606287")
+	)
+	(fp_line
+		(start 3.7 2.7)
+		(end 3.7 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7bf8a88-0981-432a-9184-68637b179f29")
+	)
+	(fp_line
+		(start -1.95 -1.475)
+		(end -0.975 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d79e6e1-75a3-4cef-bc2e-67ad743b0f2b")
+	)
+	(fp_line
+		(start -1.95 2.45)
+		(end -1.95 -1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1fe283d-859e-4ec2-bc4f-bccf65a27960")
+	)
+	(fp_line
+		(start -0.975 -2.45)
+		(end 1.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6bba903-b78e-4609-baac-2d26cfb9d9a4")
+	)
+	(fp_line
+		(start 1.95 -2.45)
+		(end 1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24be12d3-411b-4a65-a308-8a10c5f6c172")
+	)
+	(fp_line
+		(start 1.95 2.45)
+		(end -1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d12c35ad-f3f2-4464-9dc2-df8a56535251")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 5.5 0)
+		(layer "F.Fab")
+		(uuid "bd4d5407-f411-46d7-bb2f-9bb81fb55b60")
+		(effects
+			(font
+				(size 0.98 0.98)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.625 -1.905)
+		(size 1.65 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9eaed244-519a-40af-b0dd-54e980b6a6a3")
+	)
+	(pad "2" smd roundrect
+		(at -2.625 -0.635)
+		(size 1.65 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ef3b8463-c972-424d-9929-2d95073c6aba")
+	)
+	(pad "3" smd roundrect
+		(at -2.625 0.635)
+		(size 1.65 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9c15dbe3-a1c4-419e-a44d-1bf2b0ed21ea")
+	)
+	(pad "4" smd roundrect
+		(at -2.625 1.905)
+		(size 1.65 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "46e9fcef-e76a-4003-8175-eee2a2c622d0")
+	)
+	(pad "5" smd roundrect
+		(at 2.625 1.905)
+		(size 1.65 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "30e81764-5e77-499e-b7b4-f85891c20542")
+	)
+	(pad "6" smd roundrect
+		(at 2.625 0.635)
+		(size 1.65 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9bdcf60f-05f0-49ed-9fbb-b8f5c148f946")
+	)
+	(pad "7" smd roundrect
+		(at 2.625 -0.635)
+		(size 1.65 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c3ea0666-2bab-403a-afbb-41bc9aa31147")
+	)
+	(pad "8" smd roundrect
+		(at 2.625 -1.905)
+		(size 1.65 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "b6ed7c69-3314-4d31-b497-8d9dcdef6b6b")
+	)
+	(model "${BAC_LIB_DIR}/micromod-mainboard-v1/3d/FU-MB85RS256B.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
